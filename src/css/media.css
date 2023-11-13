@@ -1,0 +1,77 @@
+@media screen and (min-width: 768px) {
+
+    body {
+        padding: 50px;
+    }
+
+    .gallery {
+        margin-top: 50px;
+        margin-bottom: 50px;
+        gap: 30px;
+    }
+    
+
+    .photo-card {
+        width: 450px;
+    }
+
+    .info-item {
+        font-size: 16px;
+    }
+
+    .photo-container {
+        height: 300px;
+    }
+
+    .last-page {
+        font-size: 16px;
+    }
+
+    button {
+        font-size: 16px;
+    }
+
+    .search-input {
+        font-size: 16px;
+        max-width: 300px;
+    }
+
+    .under-conteiner{
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 30px;
+    }
+
+}
+
+@media screen and (min-width: 635px) {
+
+    .search-form {
+        justify-content: start;
+        }
+
+        .gallery {
+            justify-content: start;
+        }
+
+        .btns-helpers {
+            justify-content: start;
+        }
+        
+        .under-conteiner{
+            flex-direction: column;
+            justify-content: start;
+            margin: 0;
+            max-width: 100%;
+        }
+
+}
+
+
+
+@media screen and (min-width: 631px) and (max-width: 767px) {
+    
+    .photo-container {
+     height: 200px;
+       }
+}
